@@ -1,8 +1,9 @@
 import os
+from git import Repo
 
 def main():
 
-	
+
 	w= open("index.html", "a+")
 	
 	name = input("What is your name?\n")
@@ -17,7 +18,13 @@ def main():
 	
 	w.close()
 
-	os.system("git commit --all")
+	repo_path = os.getenv('GIT_REPO_PATH')
+
+	repo = Repo(repo_path)
+
+	assert not repo.bare
+
+	repo.commit('master')
 
 	os.system("git push --all")
 
