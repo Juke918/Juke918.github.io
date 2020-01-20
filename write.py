@@ -1,5 +1,7 @@
 import os
 from git import Repo
+from git import Actor
+
 
 def main():
 
@@ -24,7 +26,9 @@ def main():
 
 	assert not repo.bare
 
-	repo.commit('master')
+	index = repo.index
+	
+	index.commit(name)
 
 	os.system("git push --all")
 
