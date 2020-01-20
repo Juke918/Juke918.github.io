@@ -13,12 +13,12 @@ def write():
 	name = input("What is your name?\n")
 	
 
-	w.write("\n" + name + "\n")
+	w.write("\n" + "<br>" + name + "\n" + "<br>")
 	
 
 	prop = input("Given all the information you've learned, what system might you propose? \n")
 	
-	w.write(prop + "\n")
+	w.write(prop + "\n" + "<br>")
 	
 	w.close()
 
