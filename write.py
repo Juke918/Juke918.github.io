@@ -5,6 +5,10 @@ import git
 repo = git.Repo('/Users/julianpk/Desktop/coding/euthanasia_game/Juke918.github.io')
 
 	
+def main():
+
+	print("Hello there! Are you ready to play the educational text-based adventure game on euthanasia? (press enter to continue)")
+
 
 def write():
 
