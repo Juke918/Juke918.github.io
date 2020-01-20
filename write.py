@@ -6,9 +6,7 @@ repo = git.Repo('/Users/julianpk/Desktop/coding/euthanasia_game/Juke918.github.i
 
 	
 
-def main():
-
-	from git import Repo
+def write():
 
 	w= open("index.html", "a+")
 	
@@ -31,7 +29,7 @@ def main():
 
 
 if __name__ == "__main__":
-	main()
+	write()
 
 
 	
