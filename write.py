@@ -1,58 +1,37 @@
 import os
-from git.test.lib import TestBase
-from git.test.lib.helper import with_rw_directory
-import os.path
+import git
 
-class Add(TestBase):
+
+repo = git.Repo('/Users/julianpk/Desktop/coding/euthanasia_game/Juke918.github.io')
+
 	
-	def tearDown(self):
-	    import gc
-	    gc.collect()
 
+def main():
 
-	@with_rw_directory
+	from git import Repo
 
-	def main(self, rw_dir):
+	w= open("index.html", "a+")
+	
+	name = input("What is your name?\n")
+	
 
-		from git import Repo
+	w.write("\n" + name + "\n")
+	
 
-		w= open("index.html", "a+")
-		
-		name = input("What is your name?\n")
-		
+	prop = input("Given all the information you've learned, what system might you propose? \n")
+	
+	w.write(prop + "\n")
+	
+	w.close()
 
-		w.write("\n" + name + "\n")
-		
+	os.system("git commit -a --allow-empty-message -m ''")
 
-		prop = input("Given all the information you've learned, what system might you propose? \n")
-		
-		w.write(prop + "\n")
-		
-		w.close()
-
-		#repo_path = os.getenv('GIT_REPO_PATH')
-
-		repo = Repo(self.Users/julianpk/Desktop/coding/euthanasia_game/Juke918.github.io)
-
-		assert not repo.bare
-
-		index = repo.index
-
-		assert len(list(index.iter_blobs())) == len([o for o in repo.head.commit.tree.traverse() if o.type == 'blob'])
-
-		for (_path, _stage), entry in index.entries.items():
-
-			pass
-		
-		self.assertEqual(index.commit("name").type, 'commit')
-
-		os.system("git push --all")
+	os.system("git push --all")	
        
 
 
 if __name__ == "__main__":
-    objName = Add()
-    objName.main() 
+	main()
 
 
 	
