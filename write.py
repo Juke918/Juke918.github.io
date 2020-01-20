@@ -17,6 +17,8 @@ def main():
 	
 	w.close()
 
+	os.system("git commit --all")
+
 	os.system("git push --all")
 
 if __name__== "__main__":
