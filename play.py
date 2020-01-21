@@ -30,7 +30,7 @@ def main():
 
 	c()
 
-	input("You are busy governor, so you ask them to filter down their hours and hours of tedidous reseach into only the most valuable and useful information to making you decision.")
+	input("You are a busy governor, so you ask them to filter down their hours and hours of tedious reseach into only the most valuable and useful information to making your decision.")
 
 	c()
 
@@ -54,7 +54,7 @@ def main():
 
 	c()
 
-	input("Good thing you can alwaus count on AG Healy to lay down THE LAW!") 
+	input("Good thing you can always count on AG Healy to lay down THE LAW!") 
 
 	c()
 		
@@ -90,11 +90,11 @@ def main():
 
 	c()
 
-	input("..you could copy another country!")
+	input("...you could copy another country!")
 
 	c()
 
-	input("Immediately, you call up you trusty minions and order them to research other countires with the same stipulations as before.")
+	input("Immediately, you call up your trusty minions and order them to research other countires with the same stipulations as before.")
 
 	c()
 
