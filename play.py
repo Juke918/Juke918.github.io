@@ -50,7 +50,15 @@ def main():
 
 	c()
 
-	input("Hmm... seems like its very important to regulate to lethal injection manufacturers. Next you look at Oregon")
+	input("Hmm... seems like its very important to regulate to lethal injection manufacturers and companies.")
+
+	c()
+
+	input("Good thing you can alwaus count on AG Healy to lay down THE LAW!") 
+
+	c()
+		
+	input("Next you look at Oregon")
 
 	c()
 
@@ -106,7 +114,11 @@ def main():
 
 	c()
 
-	input("It's definitely important that you make sure the programs are dynamic and accessible. You move on to Canada")
+	input("It's definitely important that you make sure the programs are dynamic and accessible.") 
+
+	c()
+
+	input("You move on to Canada")
 
 	c()
 
