@@ -1,1 +1,8 @@
-Canada
+Canada:
+
+
+A study on the economic effects of legalizing PAS in Canada yielded some interesting results. It suggested that legalizing PAS 
+would, at worst, be net neutral for the health care system, and, at best, net the system $138.8 million. However, much of the 
+study was theoretical and did not focus on the effects for each individual. Additionally, Canada implements a far mor blanket 
+healthcare system than Massachusetts so it is not clear whether it would be feasible to implement a similar PAS system under our 
+current healthcare system. 

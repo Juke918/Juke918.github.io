@@ -118,7 +118,7 @@ def main():
 
 	c()
 
-	input("Although Canada's system isn't perfect, it does give you hope: You--ahem--the people of Massachusetts could actually make money off of this!")
+	input("Although Canada's isn't the perfect model, it does give you hope: You--ahem--the people of Massachusetts could actually make money off of this!")
 
 	c()
 
